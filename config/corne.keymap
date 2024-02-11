@@ -2,17 +2,13 @@
 #include "../zmk-nodefree-config/keypos_def/keypos_36keys.h"
 
 /* map Zen's extra keys */
-/*
 #define X_LT  &kp gresc     // 6-column top row, left
 #define X_LM  &kp TAB       // 6-column mid row, left
 #define X_LB  &mo UC        // 6-column bottom row, left
-*/
 #define X_LH  &smart_mouse  // thumb row, left
-/*
 #define X_RT  &de_ae        // 6-column top row, right
 #define X_RM  &de_oe        // 6-column mid row, right
 #define X_RB  &de_ue        // 6-column bottom row, right
-*/
 #define X_RH  &bs_del       // thumb row, right
 
 /* activate bluetooth */
