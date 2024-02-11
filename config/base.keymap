@@ -197,8 +197,8 @@ ZMK_MACRO(leader_sft, bindings = <&sk LSHFT &leader>;)
 #define CANCEL      &kp K_CANCEL             // cancel caps-word, num-word and smart-mouse
 #define DSK_PREV    &hmr RSHFT LG(LA(TAB))   // previous desktop
 #define DSK_NEXT    &hmr LALT LG(TAB)        // next     desktop
-#define PIN_WIN     &kp LG(_)                // pin window across desktops
-#define PIN_APP     &kp LG(-)                // pin application across desktops
+#define PIN_WIN     &kp LG(UNDER)            // pin window across desktops
+#define PIN_APP     &kp LG(MINUS)            // pin application across desktops
 #define DSK_MGR     &kp LG(D)                // desktop manager
 #define VOL_DOWN    &hmr LCTRL C_VOL_DN
 
@@ -232,7 +232,7 @@ ZMK_LAYER(nav,
 
 ZMK_LAYER(fn,
 //╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮
-    X_LT     ___           &kp F7        &kp F8        &kp F9        &kp F10         X_MT     ___           &kp C_PREV    &kp C_VOL_UP  &kp C_NEXT   &kp SYSTEM_SLEEP X_RT
+    X_LT     ___           &kp F7        &kp F8        &kp F9        &kp F10         X_MT     ___           &kp C_PREV    &kp C_VOL_UP  &kp C_NEXT    ___             X_RT
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
     X_LM     ___           &hml LALT F4  &hml LGUI F5 &hml LSHFT F6  &kp F11         X_MM     PIN_APP       DSK_PREV      VOL_DOWN      DSK_NEXT      ___             X_RM
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
