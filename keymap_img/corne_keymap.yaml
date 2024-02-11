@@ -1,0 +1,417 @@
+layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
+layers:
+  base:
+  - - {t: ESC, s: '`'}
+    - Q
+    - W
+    - F
+    - P
+    - B
+    - J
+    - L
+    - U
+    - Y
+    - ''''
+    - {t: '&de_ae_lower', s: '&de_ae_upper'}
+  - - ↹
+    - {t: A, h: ⌃}
+    - {t: R, h: ⎇}
+    - {t: S, h: ⌘}
+    - {t: T, h: ⇧}
+    - G
+    - M
+    - {t: N, h: ⇧}
+    - {t: E, h: ⌘}
+    - {t: I, h: ⎇}
+    - {t: O, h: ⌃}
+    - {t: '&de_oe_lower', s: '&de_oe_upper'}
+  - - uc
+    - Z
+    - X
+    - C
+    - D
+    - V
+    - K
+    - H
+    - {t: ',', s: ;}
+    - {t: ., s: ':'}
+    - SLSH
+    - {t: '&de_ue_lower', s: '&de_ue_upper'}
+  - - '&smart_mouse'
+    - {t: ⇧, h: sticky, s: ⇪}
+    - {t: RET, h: fn}
+    - {t: ⌫, h: LA(BSPC)}
+    - {t: SPACE, h: nav, s: '&dot_spc'}
+    - {t: ⌫, s: ⌦}
+  nav:
+  - - {t: ESC, s: '`'}
+    - ' '
+    - ' '
+    - LS(TAB)
+    - '&swapper'
+    - ' '
+    - PG UP
+    - PG DN
+    - {t: ⌫, h: LA(BSPC)}
+    - {t: ⌦, h: LC(DEL)}
+    - ' '
+    - {t: '&de_ae_lower', s: '&de_ae_upper'}
+  - - ↹
+    - {t: ⌃, h: sticky}
+    - {t: ⎇, h: sticky}
+    - {t: ⌘, h: sticky}
+    - {t: ⇧, h: sticky}
+    - ' '
+    - ←
+    - ↓
+    - ↑
+    - →
+    - RET
+    - {t: '&de_oe_lower', s: '&de_oe_upper'}
+  - - uc
+    - ' '
+    - ' '
+    - <
+    - '>'
+    - ' '
+    - INS
+    - ↹
+    - {t: '&de_ae_lower', s: '&de_ae_upper'}
+    - {t: '&de_oe_lower', s: '&de_oe_upper'}
+    - {t: '&de_ue_lower', s: '&de_ue_upper'}
+    - {t: '&de_ue_lower', s: '&de_ue_upper'}
+  - - '&smart_mouse'
+    - {t: '&num_dance', h: num}
+    - CANCEL
+    - ' '
+    - {t: ' ', type: held}
+    - {t: ⌫, s: ⌦}
+  fn:
+  - - {t: ESC, s: '`'}
+    - ' '
+    - F7
+    - F8
+    - F9
+    - F10
+    - ' '
+    - PREV
+    - VOL UP
+    - NEXT
+    - ' '
+    - {t: '&de_ae_lower', s: '&de_ae_upper'}
+  - - ↹
+    - ' '
+    - {t: F4, h: ⎇}
+    - {t: F5, h: ⌘}
+    - {t: F6, h: ⇧}
+    - F11
+    - LG(MINUS)
+    - {t: LG(LA(TAB)), h: ⇧}
+    - {t: VOL DN, h: ⌃}
+    - {t: LG(TAB), h: ⎇}
+    - ' '
+    - {t: '&de_oe_lower', s: '&de_oe_upper'}
+  - - uc
+    - ' '
+    - F1
+    - F2
+    - F3
+    - F12
+    - ' '
+    - LG(UNDER)
+    - LG(D)
+    - ' '
+    - ' '
+    - {t: '&de_ue_lower', s: '&de_ue_upper'}
+  - - '&smart_mouse'
+    - ' '
+    - {t: ' ', type: held}
+    - 'VOL
+
+      MUTE'
+    - PP
+    - {t: ⌫, s: ⌦}
+  num:
+  - - {t: ESC, s: '`'}
+    - ' '
+    - ' '
+    - ' '
+    - ' '
+    - ' '
+    - ' '
+    - '7'
+    - '8'
+    - '9'
+    - ' '
+    - {t: '&de_ae_lower', s: '&de_ae_upper'}
+  - - ↹
+    - ' '
+    - ' '
+    - ' '
+    - ' '
+    - ' '
+    - ' '
+    - {t: '4', h: ⇧}
+    - {t: '5', h: ⌘}
+    - {t: '6', h: ⎇}
+    - ' '
+    - {t: '&de_oe_lower', s: '&de_oe_upper'}
+  - - uc
+    - ' '
+    - ' '
+    - ' '
+    - ' '
+    - ' '
+    - ' '
+    - '1'
+    - '2'
+    - '3'
+    - ' '
+    - {t: '&de_ue_lower', s: '&de_ue_upper'}
+  - - '&smart_mouse'
+    - {t: ' ', type: held}
+    - ' '
+    - ' '
+    - {t: '0', type: held}
+    - {t: ⌫, s: ⌦}
+  sys:
+  - - {t: ESC, s: '`'}
+    - {t: BT, h: '0'}
+    - {t: BT, h: '1'}
+    - {t: BT, h: '2'}
+    - {t: BT, h: '3'}
+    - BT CLR
+    - ' '
+    - ' '
+    - ' '
+    - ' '
+    - ' '
+    - {t: '&de_ae_lower', s: '&de_ae_upper'}
+  - - ↹
+    - ' '
+    - ' '
+    - ' '
+    - ' '
+    - '&bootloader'
+    - '&bootloader'
+    - ' '
+    - ' '
+    - ' '
+    - ' '
+    - {t: '&de_oe_lower', s: '&de_oe_upper'}
+  - - uc
+    - ' '
+    - ' '
+    - ' '
+    - ' '
+    - '&sys_reset'
+    - '&sys_reset'
+    - ' '
+    - ' '
+    - ' '
+    - ' '
+    - {t: '&de_ue_lower', s: '&de_ue_upper'}
+  - - '&smart_mouse'
+    - {t: ' ', type: held}
+    - {t: ' ', type: held}
+    - ' '
+    - {t: ' ', type: held}
+    - {t: ⌫, s: ⌦}
+  uc:
+  - - {t: ESC, s: '`'}
+    - ' '
+    - {t: '&el_omega_lower', s: '&el_omega_upper'}
+    - {t: '&el_phi_lower', s: '&el_phi_upper'}
+    - {t: '&el_pi_lower', s: '&el_pi_upper'}
+    - {t: '&el_beta_lower', s: '&el_beta_upper'}
+    - ' '
+    - {t: '&el_lambda_lower', s: '&el_lambda_upper'}
+    - {t: '&el_upsilon_lower', s: '&el_upsilon_upper'}
+    - {t: '&el_psi_lower', s: '&el_psi_upper'}
+    - {t: '&de_eszett_lower', s: '&de_eszett_upper'}
+    - {t: '&de_ae_lower', s: '&de_ae_upper'}
+  - - ↹
+    - {t: '&el_alpha_lower', s: '&el_alpha_upper'}
+    - {t: '&el_rho_lower', s: '&el_rho_upper'}
+    - {t: '&el_sigma_lower', s: '&el_sigma_upper'}
+    - {t: '&el_tau_lower', s: '&el_tau_upper'}
+    - {t: '&el_gamma_lower', s: '&el_gamma_upper'}
+    - {t: '&el_mu_lower', s: '&el_mu_upper'}
+    - {t: '&el_nu_lower', s: '&el_nu_upper'}
+    - {t: '&el_epsilon_lower', s: '&el_epsilon_upper'}
+    - {t: '&el_iota_lower', s: '&el_iota_upper'}
+    - {t: '&el_omikron_lower', s: '&el_omikron_upper'}
+    - {t: '&de_oe_lower', s: '&de_oe_upper'}
+  - - {t: uc, type: held}
+    - {t: '&el_zeta_lower', s: '&el_zeta_upper'}
+    - {t: '&el_xi_lower', s: '&el_xi_upper'}
+    - {t: '&el_chi_lower', s: '&el_chi_upper'}
+    - {t: '&el_delta_lower', s: '&el_delta_upper'}
+    - {t: '&el_theta_lower', s: '&el_theta_upper'}
+    - {t: '&el_kappa_lower', s: '&el_kappa_upper'}
+    - {t: '&el_eta_lower', s: '&el_eta_upper'}
+    - {t: '&de_ae_lower', s: '&de_ae_upper'}
+    - {t: '&de_oe_lower', s: '&de_oe_upper'}
+    - {t: '&de_ue_lower', s: '&de_ue_upper'}
+    - {t: '&de_ue_lower', s: '&de_ue_upper'}
+  - - '&smart_mouse'
+    - ' '
+    - ' '
+    - ' '
+    - ' '
+    - {t: ⌫, s: ⌦}
+  mouse:
+  - - {t: ESC, s: '`'}
+    - ' '
+    - ' '
+    - ' '
+    - ' '
+    - ' '
+    - '&msc SCRL_LEFT'
+    - '&msc SCRL_DOWN'
+    - '&mmv MOVE_UP'
+    - '&msc SCRL_UP'
+    - '&msc SCRL_RIGHT'
+    - {t: '&de_ae_lower', s: '&de_ae_upper'}
+  - - ↹
+    - ' '
+    - ' '
+    - ' '
+    - ' '
+    - ' '
+    - ' '
+    - '&mmv MOVE_LEFT'
+    - '&mmv MOVE_DOWN'
+    - '&mmv MOVE_RIGHT'
+    - ' '
+    - {t: '&de_oe_lower', s: '&de_oe_upper'}
+  - - uc
+    - ' '
+    - ' '
+    - ' '
+    - ' '
+    - ' '
+    - ' '
+    - '&mkp MB4'
+    - '&mkp MCLK'
+    - '&mkp MB5'
+    - ' '
+    - {t: '&de_ue_lower', s: '&de_ue_upper'}
+  - - '&smart_mouse'
+    - ' '
+    - ' '
+    - '&mkp LCLK'
+    - '&mkp RCLK'
+    - {t: ⌫, s: ⌦}
+combos:
+- p: [2, 3]
+  k: ESC
+  l: [base, nav, num]
+- p: [3, 4]
+  k: ⏎
+  l: [base, nav, num]
+- p: [2, 4]
+  k: '&smart_mouse'
+  l: [base, nav, num]
+- p: [14, 15]
+  k: {t: ↹, h: LA(LCTRL)}
+  l: [base, nav, num]
+- p: [15, 16]
+  k: {t: '&key_repeat', h: LS(LCTRL)}
+  l: [base, nav, num]
+- p: [26, 28]
+  k: LC(X)
+  l: [base, nav, num]
+- p: [26, 27]
+  k: LC(INS)
+  l: [base, nav, num]
+- p: [27, 28]
+  k: LS(INS)
+  l: [base, nav, num]
+- p: [7, 8]
+  k: ⌫
+  l: [base, nav, num]
+- p: [8, 9]
+  k: ⌦
+  l: [base, nav, num]
+- p: [18, 19]
+  k: '!'
+  l: [base, nav, num]
+- p: [19, 20]
+  k: {t: (, h: RS(LCTRL), s: <}
+  l: [base, num]
+- p: [20, 21]
+  k: {t: ), h: LA(LCTRL), s: '>'}
+  l: [base, num]
+- p: [19, 20]
+  k: <
+  l: [nav]
+- p: [20, 21]
+  k: '>'
+  l: [nav]
+- p: [31, 32]
+  k: '['
+  l: [base, num]
+- p: [32, 33]
+  k: ']'
+  l: [base, num]
+- p: [31, 32]
+  k: '{'
+  l: [nav]
+- p: [32, 33]
+  k: '}'
+  l: [nav]
+- p: [7, 9]
+  k: {t: uc, h: sticky}
+  l: [base, nav, num]
+- p: [7, 8, 9]
+  k: {t: '&uc_shift', h: sticky}
+  l: [base, nav, num]
+- p: [2, 14]
+  k: '@'
+  l: [base, nav, num]
+- p: [3, 15]
+  k: '#'
+  l: [base, nav, num]
+- p: [4, 16]
+  k: $
+  l: [base, nav, num]
+- p: [5, 17]
+  k: '%'
+  l: [base, nav, num]
+- p: [14, 26]
+  k: '`'
+  l: [base, nav, num]
+- p: [15, 27]
+  k: \
+  l: [base, nav, num]
+- p: [16, 28]
+  k: '='
+  l: [base, nav, num]
+- p: [17, 29]
+  k: '~'
+  l: [base, nav, num]
+- p: [6, 18]
+  k: ^
+  l: [base, nav, num]
+- p: [7, 19]
+  k: +
+  l: [base, nav, num]
+- p: [8, 20]
+  k: '*'
+  l: [base, nav, num]
+- p: [9, 21]
+  k: '&'
+  l: [base, nav, num]
+- p: [18, 30]
+  k: _
+  l: [base, nav, num]
+- p: [19, 31]
+  k: '-'
+  l: [base, nav, num]
+- p: [20, 32]
+  k: /
+  l: [base, nav, num]
+- p: [21, 33]
+  k: '|'
+  l: [base, nav, num]
