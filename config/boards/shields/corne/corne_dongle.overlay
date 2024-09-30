@@ -13,7 +13,9 @@
     };
 
     mock_kscan: kscan_0 {
-        col-gpios = <0>;
+        col-gpios
+        = <&pro_micro 1 GPIO_ACTIVE_HIGH>;
+	compatible = "zmk,kscan_mock";
         columns = <0>;
         rows = <0>;
         events = <0>;
