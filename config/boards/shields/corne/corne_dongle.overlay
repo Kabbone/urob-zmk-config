@@ -13,6 +13,7 @@
     };
 
     mock_kscan: kscan_0 {
+        col-gpios = <0>;
         columns = <0>;
         rows = <0>;
         events = <0>;
