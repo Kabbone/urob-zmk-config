@@ -16,8 +16,10 @@
         col-gpios
         = <0>,<0>,<0>,<0>,<0>,<0> ;
 	compatible = "zmk,kscan_mock";
-        columns = <0>;
+        /*
+	columns = <0>;
         rows = <0>;
         events = <0>;
+	*/
     };
 };
